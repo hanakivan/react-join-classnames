@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/react-join-classnames",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Adds multiple classes to the className attribute.",
   "main": "./dist/index.js",
   "scripts": {
