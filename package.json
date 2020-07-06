@@ -1,0 +1,23 @@
+{
+  "name": "@ivanhanak_com/react-join-classnames",
+  "version": "1.0.0",
+  "description": "Adds multiple classes to the className attribute.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "classname",
+    "style",
+    "style-attribute",
+    "react",
+    "react-dom",
+    "es6",
+    "css-modules"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/react-join-classnames",
+  "license": "https://www.imdb.com/title/tt0097742/"
+}
