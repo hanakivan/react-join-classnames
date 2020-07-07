@@ -16,9 +16,14 @@ or using yarn:
 yarn add @ivanhanak_com/react-join-classnames
 ```
 
+## Usage
 
-## Usage with react-css-modules
+### 1) Import
+```javascript
+import classes from '@ivanhanak_com/react-join-classnames';
+```
 
+### 2) Use in render
 ```jsx harmony
 <p className={classes("global-classname", reactCssModulesStyle.paragraph, shouldIBeTruthful && "then-include-this", andIfThisIsFalse && "will-not-be-included")}>
     Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
