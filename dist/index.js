@@ -11,7 +11,15 @@ var _default = function _default() {
   }
 
   return args.filter(function (item) {
-    return !!item;
+    if (typeof item === "undefined") {
+      return false;
+    } else if (item === null) {
+      return false;
+    } else if ([true, false].includes(item)) {
+      return false;
+    }
+
+    return item.toString().trim().length > 0;
   }).join(" ");
 };
 
