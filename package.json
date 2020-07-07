@@ -4,7 +4,9 @@
   "description": "Adds multiple classes to the className attribute.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src -d dist"
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run test && npm run dist"
   },
   "keywords": [
     "npm",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4"
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
   }
 }
